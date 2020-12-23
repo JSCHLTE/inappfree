@@ -1,0 +1,198 @@
+body {
+    overflow-x: hidden;
+}
+
+/*NAVBAR*/
+
+.navbar-brand {
+    font-size: 20pt;
+    color: black;
+    margin-left: 450px;
+    transition: 0.5s;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-nav {
+    margin-right: 450px;
+}
+
+.navbar-brand:hover {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link {
+    color: black !important; 
+    transition: 0.2s;
+    margin: 0px 30px;
+    padding: 2px 0px !important;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    border-color: white;
+    transition: 0.2s;
+    transform: translateY(2px);
+}
+
+.bg-color {
+    background-color: #3BB9FF;
+}
+
+/*NAVBAR END*/
+
+/*HEAD*/
+
+.head-section {
+    background-image: url(https://i.ibb.co/R2w4tR0/background-img.png) !important;
+    padding-top: 50px;
+}
+
+.head-title h1 {
+    color:white;
+    margin: 0px 125px;
+}
+.head-title sub {
+    color: white;
+    margin: 0px 125px;
+    font-size: 10pt;
+}
+
+hr {
+    height: 2px;
+    background-color: #3BB9FF;
+    margin-right: 60%;
+    margin-left: 125px;
+}
+
+.app {
+    background-color: rgba(128, 128, 128, 0.2);
+    width: 80%;
+    margin: 0px auto;
+    border: 2px solid transparent;
+    transition: .3s;
+    color: white;
+}
+
+.app:hover {
+    border-color: #3BB9FF;
+    transform: translateX(15px);
+    cursor: default;
+    font-weight: bold;
+    transition: .1s;
+}
+
+.app-img {
+    margin: 10px 10px;
+    width: 50px;
+}
+/*HEAD END*/
+
+/*FOOTER*/
+
+.foot-container {
+    background-color: #3BB9FF;
+}
+
+.text1 h1 {
+    color: black;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text1 sub {
+    color: black;
+    font-size: 20pt;
+}
+
+.foot-container ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.foot-container ul li {
+    list-style-type: none;
+    font-size: 30pt;
+}
+
+.foot-container li {
+    margin: 0px 25px;
+    padding: 10px 10px;
+    border-radius: 100%;
+    transition: 0.2s;
+}
+
+.foot-container li:hover {
+    background-color:black;
+    transition: 0.2s;
+}
+
+.fa-twitter, .fa-discord, .fa-envelope {
+    color: white;
+    margin: 0px 10px;
+}
+
+.fa-twitter:hover, .fa-discord:hover, .fa-envelope:hover {
+    color: white;
+}
+/*FOOTER END*/
+
+@media (max-width: 812px) {
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+        border-color: transparent !important;
+    }
+
+    button {
+        outline: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(https://i.ibb.co/pbPbDkY/burger.png) !important;
+        border-color: transparent;
+    }
+
+    .navbar-brand {
+        margin: 20px;
+    }
+
+    .head-title h1 {
+        margin: 10px 30px;
+        font-size: 30pt;
+    }
+
+    .head-title sub {
+        margin: 10px 40px;
+    }
+
+    .text1 h1 {
+        font-size: 30pt;
+    }
+
+    .head-title h1 {
+        margin: 0px 35px;
+        text-align: center;
+        font-size: 30pt;
+        padding-top: 20px;
+    }
+
+    hr {
+        height: 2px;
+        background-color: #3BB9FF;
+        margin: 0 10%;
+    }
+
+    .text1 sub {
+        font-size: 15pt;
+    }
+}

@@ -1,0 +1,142 @@
+
+/*NAVBAR*/
+
+.bg-custom {
+    background-color: #3BB9FF !important;
+}
+
+.navbar-brand {
+    font-size: 20pt;
+    color: black;
+    margin-left: 450px;
+    transition: 0.5s;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-nav {
+    margin-right: 450px;
+}
+
+.navbar-brand:hover {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link {
+    color: black !important; 
+    transition: 0.2s;
+    margin: 0px 30px;
+    padding: 2px 0px !important;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    border-color: white;
+    transition: 0.2s;
+    transform: translateY(2px);
+}
+
+
+/*NAVBAR END*/
+
+.status-section {
+    background-color: white;
+}
+
+.yes {
+    color: green;
+    text-align: center;
+    margin: 50px auto 10px;
+}
+
+.other-text {
+    text-align: center;
+    color: black;
+    margin-bottom: 27.8%;
+}
+
+/*FOOTER*/
+
+.foot-container {
+    background-color: #3BB9FF;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.text1 h1 {
+    color: black;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text1 sub {
+    color: black;
+    font-size: 20pt;
+}
+
+.foot-container ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.foot-container ul li {
+    list-style-type: none;
+    font-size: 30pt;
+}
+
+.foot-container li {
+    margin: 0px 25px;
+    padding: 10px 10px;
+    border-radius: 100%;
+    transition: 0.2s;
+}
+
+.foot-container li:hover {
+    background-color:white;
+    transition: 0.2s;
+    color: white !important;
+}
+
+.fa-twitter, .fa-discord, .fa-envelope {
+    color: black;
+    margin: 0px 10px;
+}
+/*FOOTER END*/
+
+@media (max-width: 812px) {
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+        border-color: transparent !important;
+    }
+
+    button {
+        outline: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(https://i.ibb.co/pbPbDkY/burger.png) !important;
+        border-color: transparent;
+    }
+
+    .navbar-brand {
+        margin: 20px;
+    }
+    .text1 h1 {
+        font-size: 30pt;
+    }
+
+    .text1 sub {
+        font-size: 15pt;
+    }
+}

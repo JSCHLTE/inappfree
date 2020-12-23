@@ -1,0 +1,243 @@
+body {
+    background-image: url(https://i.ibb.co/R2w4tR0/background-img.png);
+}
+
+/*NAVBAR*/
+
+.navbar-brand {
+    font-size: 20pt;
+    color: black;
+    margin-left: 450px;
+    transition: 0.5s;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-nav {
+    margin-right: 450px;
+}
+
+.navbar-brand:hover {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link {
+    color: black !important; 
+    transition: 0.2s;
+    margin: 0px 30px;
+    padding: 2px 0px !important;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    border-color: white;
+    transition: 0.2s;
+    transform: translateY(2px);
+}
+
+.bg-color {
+    background-color: #3BB9FF;
+}
+
+/*NAVBAR END*/
+
+/*HEADING*/
+
+.heading {
+    margin: 100px auto;
+}
+
+.title {
+    color: black;
+    font-size: 45pt;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title-sub {
+    font-size: 20pt;
+    color: black;
+    text-shadow: 0px 0px 18px white;
+}
+
+.buttons {
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+
+.getstarted, .moreinfo {
+    padding: 12px 48px;
+    border: 2px solid white;
+    color:white;
+    background: transparent;
+    cursor: pointer;
+    margin: 0px 10px;
+    transition: 0.1s ease-out;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.getstarted:focus, .moreinfo:focus {
+    outline: none;
+}
+
+.getstarted:hover, .moreinfo:hover {
+    background-color: white;
+    color: #3BB9FF;
+    transition: 0.1s ease-in;
+}
+
+/*HEADING END*/
+
+/*BODY*/
+.welcome-title h1 {
+    color: #3BB9FF;
+    margin: 10px 250px;
+    font-size: 40pt;
+}
+
+hr {
+    height: 2px;
+    background-color: #3BB9FF;
+    margin-right: 60%;
+    margin-left: 250px;
+}
+
+.welcome-sub {
+    width: 75%;
+    margin: 10px auto;
+}
+
+.welcome-sub sub {
+    margin: 10px 25px;
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.welcome-sub a {
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: #3BB9FF;
+    transition: 0.1s;
+}
+
+.welcome-sub a:hover {
+    color: #3BB9FF;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.input {
+    margin-bottom: 125px;
+}
+/*BODY END*/
+
+/*FOOTER*/
+
+.foot-container {
+    background-color: #3BB9FF;
+}
+
+.text1 h1 {
+    color: black;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text1 sub {
+    color: black;
+    font-size: 20pt;
+}
+
+.foot-container ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.foot-container ul li {
+    list-style-type: none;
+    font-size: 30pt;
+}
+
+.foot-container li {
+    margin: 0px 25px;
+    padding: 10px 10px;
+    border-radius: 100%;
+    transition: 0.2s;
+}
+
+.foot-container li:hover {
+    background-color:black;
+    transition: 0.2s;
+}
+
+.fa-twitter, .fa-discord, .fa-envelope {
+    color: white;
+    margin: 0px 10px;
+}
+
+.fa-twitter:hover, .fa-discord:hover, .fa-envelope:hover {
+}
+/*FOOTER END*/
+
+@media (max-width: 812px) {
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+        border-color: transparent !important;
+    }
+
+    button {
+        outline: none;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(https://i.ibb.co/pbPbDkY/burger.png) !important;
+        border-color: transparent;
+    }
+
+    .navbar-brand {
+        margin: 20px;
+    }
+
+    .title {
+        font-size: 30pt;
+        margin: 50px 20px;
+    }
+
+    .moreinfo {
+        margin-top: 20px;
+    }
+
+    .welcome-title h1 {
+        font-size: 30pt;
+        text-align: center;
+        margin: 10px 50px;
+    }
+
+    hr {
+        margin: 10px 15%;
+    }
+
+    .welcome-sub sub {
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .text1 sub {
+        font-size: 15pt;
+    }
+}
